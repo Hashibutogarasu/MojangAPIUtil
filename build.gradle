@@ -8,6 +8,7 @@ plugins {
 group 'git.hashibutogarasu'
 version '1.0'
 
+
 repositories {
     mavenCentral()
 }
@@ -40,3 +41,21 @@ jar {
     }
 }
 
+publishing {
+    repositories {
+        maven {
+            name = "GitHubPackages"
+            url = uri("https://maven.pkg.github.com/Hashibutogarasu/MojangAPIUtil")
+            credentials {
+                username = project.findProperty("gpr.user") ?: System.getenv("GITHUB_ACTOR")
+                password = project.findProperty("gpr.key") ?: System.getenv("TOKEN")
+            }
+        }
+    }
+    publications {
+        gpr(MavenPublication) {
+            artifactId = "mojangapiutil"
+            from(components.java)
+        }
+    }
+}
