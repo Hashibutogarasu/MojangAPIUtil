@@ -5,7 +5,7 @@ plugins {
     id 'maven-publish'
 }
 
-group 'git.hashibutogarasu'
+group 'io.github.hashibutogarasu'
 version '1.0'
 
 
@@ -37,7 +37,7 @@ test {
 
 jar {
     manifest {
-        attributes "Main-Class": "git.hashibutogarasu.mojangapiutil.MojangAPIUtil"
+        attributes "Main-Class": "io.github.hashibutogarasu.mojangapiutil.MojangAPIUtil"
     }
 }
 
