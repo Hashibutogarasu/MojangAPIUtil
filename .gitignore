@@ -1,3 +1,4 @@
-./skin_cache
-./lib
-./gradle.properties
+/skin_cache/
+/lib/
+/.idea/
+/gradle.properties
