@@ -1,4 +1,4 @@
-import git.hashibutogarasu.mojangapiutil.MojangAPIUtil;
+import io.github.hashibutogarasu.mojangapiutil.MojangAPIUtil;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;

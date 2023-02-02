@@ -1,4 +1,4 @@
-package git.hashibutogarasu.mojangapiutil.jsonmodel;
+package io.github.hashibutogarasu.mojangapiutil.jsonmodel;
 
 import java.util.Map;
 

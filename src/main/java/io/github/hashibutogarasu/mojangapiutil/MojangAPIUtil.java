@@ -1,10 +1,10 @@
-package git.hashibutogarasu.mojangapiutil;
+package io.github.hashibutogarasu.mojangapiutil;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import git.hashibutogarasu.mojangapiutil.jsonmodel.Profile;
-import git.hashibutogarasu.mojangapiutil.jsonmodel.SessionserverProfile;
-import git.hashibutogarasu.mojangapiutil.jsonmodel.Texture;
+import io.github.hashibutogarasu.mojangapiutil.jsonmodel.Profile;
+import io.github.hashibutogarasu.mojangapiutil.jsonmodel.SessionserverProfile;
+import io.github.hashibutogarasu.mojangapiutil.jsonmodel.Texture;
 
 import javax.imageio.ImageIO;
 import java.awt.*;
